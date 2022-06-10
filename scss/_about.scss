@@ -54,6 +54,10 @@
             }
             .basic{
                 display: flex;
+                flex-wrap: wrap;
+                >div{
+                    flex: 0 1 160px;
+                }
                 .img{
                     margin-right: 1rem;
                     width: 160px;
@@ -67,9 +71,11 @@
         }
         .toolsIcon{
             display: flex;
+            flex-wrap: wrap;
         }
         .toolsIcon >div{
             margin: 0 1rem;
+            flex: 1 1 150px;
         }
         .toolsIcon p{
             display: inline-block;
