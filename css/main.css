@@ -251,9 +251,43 @@
   color: #afafaf;
 }
 
-.about .jobs-content {
+.about .jobs-content ul {
   margin-left: 1.5rem;
-  font-weight: 300;
+}
+
+.about .jobs-content .basic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .jobs-content .basic .img {
+  margin-right: 1rem;
+  width: 160px;
+  height: 200px;
+  background: url(../img/model-1.jpg) center center;
+  background-size: cover;
+  border-radius: 5%;
+}
+
+.about .jobs .toolsIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .jobs .toolsIcon > div {
+  margin: 0 1rem;
+}
+
+.about .jobs .toolsIcon p {
+  display: inline-block;
+  min-width: 34px;
+  min-height: 34px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 34px;
+  padding: 3px;
 }
 
 .about footer {

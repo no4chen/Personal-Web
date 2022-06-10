@@ -49,8 +49,36 @@
             }
         }
         &-content{
-            margin-left: 1.5rem;
-            font-weight: 300;
+            ul{
+                margin-left: 1.5rem;
+            }
+            .basic{
+                display: flex;
+                .img{
+                    margin-right: 1rem;
+                    width: 160px;
+                    height: 200px;
+                    background: url(../img/model-1.jpg) center center;
+                    background-size: cover;
+                    border-radius: 5%;
+                }
+            }
+            
+        }
+        .toolsIcon{
+            display: flex;
+        }
+        .toolsIcon >div{
+            margin: 0 1rem;
+        }
+        .toolsIcon p{
+            display: inline-block;
+            min-width: 34px;
+            min-height: 34px;
+            text-align: center;
+            border: 2px solid #fff;
+            border-radius: 34px;
+            padding: 3px;
         }
     }
 
